@@ -53,12 +53,13 @@ if (boshmi) {
     elText.textContent = `Savtcha ${mevalar.length}ta mahsulot`
 }
 
-const sonlar = prompt('ragam kiriting')
+const sonlar = prompt('Sonni tog` yoki juft ekanligini bilish uchun ragam kiriting')
+const elText3 = document.querySelector('.elText3')
 if (sonlar % 2 === 0) {
-    console.log(`${sonlar} - juft son`);
+    elText3.textContent = `${sonlar} - juft son`;
 } else if (sonlar % 2 === 1) {
-    console.log(`${sonlar} - toq son`);
+    elText3.textContent = `${sonlar} - toq son`;
 }
 else {
-    console.log(`Bor ashag'da oyna`);
+    elText3.textContent = `Bor ashag'da oyna`;
 }
