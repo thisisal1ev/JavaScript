@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-body{
+body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -27,19 +27,26 @@ p {
 }
 
 button {
-  padding: 5px 15px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  color: white;
-  background: transparent;
-  border-radius: 15px;
+  border: #3498db solid 1px;
+}
+
+button:hover {
+  color: #3498db;
+  background-color: transparent;
+  border: #3498db solid 1px;
 }
 
 button:active {
-  border-color: red;
-  color: red;
+  color: black;
 }
 
-.dark{
+.dark {
   color: white;
   background-color: black;
 }
