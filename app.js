@@ -62,4 +62,21 @@ if (sonlar % 2 === 0) {
 }
 else {
     elText3.textContent = `Bor ashag'da oyna`;
-}
+};
+
+const elDarkBtn = document.querySelector('.darkBtn');
+elDarkBtn.addEventListener('click', function () {
+    document.body.classList.toggle('dark')
+});
+
+document.addEventListener('keydown', function (i) {
+    if (i.key == 'F12') {
+        i.preventDefault();
+    }
+});
+
+document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && e.key === "u") {
+        e.preventDefault();
+    }
+});

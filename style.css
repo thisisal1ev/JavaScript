@@ -29,11 +29,17 @@ p {
 button {
   padding: 5px 15px;
   cursor: pointer;
+  color: white;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 button:active {
   border-color: red;
   color: red;
+}
+
+.dark{
+  color: white;
+  background-color: black;
 }
